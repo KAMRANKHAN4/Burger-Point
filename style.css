@@ -319,7 +319,7 @@ footer {
         margin-right: 87px;
         height: 60px;
         font-size: 10px;
-        margin-left: -246px;
+        margin-left: -206px;
     }
 
     .navbar-brand {
@@ -328,7 +328,7 @@ footer {
 
     .navbar {
         background-color: #ff1a1a;
-        width: 92%;
+        width: 95%;
         height: 100px;
     }
 
@@ -359,7 +359,7 @@ footer {
         width: 61px;
         margin: 10px;
 
-        margin-left: 90px;
+        margin-left: 140px;
 
     }
 
@@ -367,21 +367,21 @@ footer {
         width: 61px;
         margin-top: 10px;
 
-        margin-left: 90px;
+        margin-left: 140px;
 
     }
 
     .img3 {
         width: 61px;
 
-        margin-left: 90px;
+        margin-left: 140px;
 
         margin-top: 10px;
     }
 
     .img4 {
 
-        margin-left: 90px;
+        margin-left: 140px;
         width: 61px;
         margin-top: 10px;
     }
@@ -389,7 +389,7 @@ footer {
     .h3 {
         font-size: 20px;
 
-        margin-left: 50px;
+        margin-left: 120px;
 
         margin-top: -19px;
         padding: 20px;
@@ -403,7 +403,7 @@ footer {
 
     .footer {
 
-        width: 59%;
+        width: 69%;
         height: 550px;
         text-align: center;
         gap: 50px;
