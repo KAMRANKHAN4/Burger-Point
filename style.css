@@ -301,7 +301,7 @@ footer {
     margin-left: -30px;
 }
 
-@media (max-width: 290px) {
+@media (max-width: 390px) {
 
     .logoo {
         height: 70px;
