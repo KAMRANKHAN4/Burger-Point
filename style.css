@@ -1,3 +1,7 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
 .logoo {
     margin-top: 10px;
     margin-left: -10px;
@@ -16,10 +20,6 @@
     border-radius: 20px 20px 20px 20px;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
-}
 
 
 .navbar {
@@ -62,6 +62,50 @@
 
 
 }
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .menu .box-container .box {
+    text-align: center;
+  }
+  
+  .menu .box-container .box:hover img {
+    transform: translateY(1rem);
+  }
+  
+  .menu .box-container .box img {
+    height: 25rem;
+  }
+  
+  .menu .box-container .box .content {
+    padding: 1rem 0;
+  }
+  
+  .menu .box-container .box .content .stars {
+    margin-bottom: 2rem;
+  }
+  
+  .menu .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: #eacf4f;
+  }
+  
+  .menu .box-container .box .content h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .menu .box-container .box .content .price {
+    font-size: 2rem;
+    line-height: 2;
+    color: #707070;
+  }
+  
 
 .liu:hover {
     border-color: #e8fd25;
@@ -356,33 +400,32 @@ footer {
     .four {}
 
     .img1 {
-        width: 61px;
+        width: 180px;
+        height: 146px;
         margin: 10px;
-
-        margin-left: 120px;
-
+        margin-left: 40px;
     }
 
     .img2 {
-        width: 61px;
-        margin-top: 10px;
-        margin-left: 120px;
+        width: 180px;
+        height: 146px;
+        margin: 10px;
+        margin-left: 40px;
 
     }
 
     .img3 {
-        width: 61px;
-
-        margin-left: 120px;
-
-        margin-top: 10px;
+        width: 180px;
+        height: 146px;
+        margin: 10px;
+        margin-left: 40px;
     }
 
     .img4 {
-
-        margin-left: 120px;
-        width: 61px;
-        margin-top: 10px;
+        width: 180px;
+        height: 146px;
+        margin: 10px;
+        margin-left: 40px;
     }
 
     .h3 {
@@ -406,7 +449,7 @@ footer {
         height: 550px;
         text-align: center;
         gap: 50px;
-        padding: 50px;
+        padding: 50px; 
         display: inline-block;
 
     }
